@@ -1,10 +1,11 @@
+require('newrelic');
 const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
 const cors = require('cors');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 2999;
 
 
 app.use(morgan('dev'));
